@@ -1,6 +1,7 @@
+import { CustomButtonProps } from '@/types'
 import React from 'react'
 
-const CustomFilter = () => {
+const CustomFilter = ({ title }: CustomButtonProps) => {
   return (
     <div>CustomFilter</div>
   )
