@@ -69,7 +69,7 @@
   @apply flex flex-col items-start justify-start gap-y-2.5 text-black-100;
 }
 
-.home__filters {
+.home__filter {
   @apply mt-12 w-full flex-between items-center flex-wrap gap-5;
 }
 
