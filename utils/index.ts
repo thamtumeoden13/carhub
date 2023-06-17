@@ -16,7 +16,7 @@ export const fetchCars = async (filters: FiterProps) => {
                 headers: headers
             }
         );
-        
+
         const result = await response.json();
         console.log(result);
 
@@ -67,4 +67,4 @@ export const generateCarImageUrl = (car: CarProps, angle?: string) => {
     url.searchParams.append('angle', `${angle}`);
 
     return `${url}`;
-} 
+}

@@ -37,3 +37,12 @@ export interface FiterProps {
     limit: number;
     model: string;
 }
+
+export interface OptionProps {
+    title: string;
+    value: string;
+}
+export interface CustomFilterPrrops {
+    title: string;
+    options: OptionProps[]
+}
